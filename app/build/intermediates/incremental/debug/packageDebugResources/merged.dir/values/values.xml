@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="amber_300">#F2C879</color>
+    <color name="amber_50">#FCEBD3</color>
+    <color name="amber_500">#E08A2E</color>
+    <color name="amber_700">#B37419</color>
+    <color name="background">#F6F8F8</color>
+    <color name="black">#000000</color>
+    <color name="chip_off_bg">#EEF0EF</color>
+    <color name="error_red">#C0392B</color>
+    <color name="ink_100">#EFF3F1</color>
+    <color name="ink_300">#9AA8A1</color>
+    <color name="ink_600">#5A6B63</color>
+    <color name="ink_900">#233A32</color>
+    <color name="line">#E3E9E6</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="teal_100">#D2E9E3</color>
+    <color name="teal_50">#E7F3F0</color>
+    <color name="teal_500">#1F8579</color>
+    <color name="teal_600">#197066</color>
+    <color name="teal_700">#0E6B60</color>
+    <color name="teal_800">#0A5A50</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <string name="action_add_appointment">+ Thêm lịch hẹn</string>
+    <string name="action_back">Quay lại</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_delete">Xóa lịch hẹn</string>
+    <string name="action_delete_short">Xóa</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="action_save">Lưu lịch hẹn</string>
+    <string name="app_name">Quản lý lịch hẹn</string>
+    <string name="cd_app_logo">Biểu tượng ứng dụng</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="cd_empty">Không có lịch hẹn</string>
+    <string name="confirm_delete_message">Bạn có chắc muốn xóa lịch hẹn này?</string>
+    <string name="confirm_delete_title">Xóa lịch hẹn</string>
+    <string name="empty_desc">Nhấn nút bên dưới để thêm lịch hẹn đầu tiên</string>
+    <string name="empty_title">Chưa có lịch hẹn nào</string>
+    <string name="error_appointment_not_found">Không tìm thấy lịch hẹn</string>
+    <string name="error_location_empty">Vui lòng nhập địa điểm</string>
+    <string name="error_login_failed">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="error_password_empty">Vui lòng nhập mật khẩu</string>
+    <string name="error_time_past">Thời điểm hẹn phải sau thời điểm hiện tại</string>
+    <string name="error_title_empty">Vui lòng nhập tên lịch hẹn</string>
+    <string name="error_username_empty">Vui lòng nhập tên đăng nhập</string>
+    <string name="hint_click_detail">(nhấn vào một lịch hẹn để xem chi tiết)</string>
+    <string name="hint_location_example">Ví dụ: Phòng B203</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="hint_title_example">Ví dụ: Họp nhóm đồ án</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="item_location_format">Địa điểm: %1$s</string>
+    <string name="label_date">Ngày hẹn</string>
+    <string name="label_datetime">Thời gian</string>
+    <string name="label_location">Địa điểm</string>
+    <string name="label_reminder">Nhắc nhở</string>
+    <string name="label_reminder_before">Nhắc nhở trước giờ hẹn</string>
+    <string name="label_reminder_off">Không nhắc</string>
+    <string name="label_reminder_on">Có nhắc</string>
+    <string name="label_time">Giờ hẹn</string>
+    <string name="label_title">Tên lịch hẹn</string>
+    <string name="login_sample_hint">Tài khoản mẫu: admin / 123456</string>
+    <string name="login_subtitle">Đăng nhập để xem và quản lý các cuộc hẹn của bạn</string>
+    <string name="login_title">Quản lý lịch hẹn</string>
+    <string name="msg_deleted">Đã xóa lịch hẹn</string>
+    <string name="msg_saved">Đã lưu lịch hẹn mới</string>
+    <string name="reminder_state_off">Đang tắt</string>
+    <string name="reminder_state_on">Đang bật</string>
+    <string name="section_upcoming">Sắp tới (gần nhất trước)</string>
+    <string name="stat_reminders">Có nhắc nhở</string>
+    <string name="stat_title">Thống kê</string>
+    <string name="stat_total">Tổng lịch hẹn</string>
+    <string name="title_add">Thêm lịch hẹn</string>
+    <string name="title_detail">Chi tiết lịch hẹn</string>
+    <string name="title_main">Lịch hẹn của tôi</string>
+    <style name="Base.Theme.QuanLyLichHen" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/teal_500</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/teal_50</item>
+        <item name="colorOnPrimaryContainer">@color/teal_700</item>
+        <item name="colorSecondary">@color/teal_600</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/ink_900</item>
+        <item name="colorOnSurfaceVariant">@color/ink_600</item>
+        <item name="colorOutline">@color/ink_300</item>
+        <item name="colorError">@color/error_red</item>
+        <item name="android:colorBackground">@color/background</item>
+
+        
+        <item name="elevationOverlayEnabled">false</item>
+
+        
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
+    </style>
+    <style name="TextAppearance.QuanLyLichHen.Body" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">@color/ink_600</item>
+    </style>
+    <style name="TextAppearance.QuanLyLichHen.Label" parent="TextAppearance.Material3.TitleSmall">
+        <item name="android:textColor">@color/ink_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextAppearance.QuanLyLichHen.Title" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="android:textColor">@color/ink_900</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="Theme.QuanLyLichHen" parent="Base.Theme.QuanLyLichHen"/>
+</resources>

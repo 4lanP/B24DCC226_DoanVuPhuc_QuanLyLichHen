@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lý lịch hẹn</string>
+
+    <!-- Màn hình đăng nhập -->
+    <string name="login_title">Quản lý lịch hẹn</string>
+    <string name="login_subtitle">Đăng nhập để xem và quản lý các cuộc hẹn của bạn</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="action_login">Đăng nhập</string>
+    <string name="login_sample_hint">Tài khoản mẫu: admin / 123456</string>
+    <string name="error_username_empty">Vui lòng nhập tên đăng nhập</string>
+    <string name="error_password_empty">Vui lòng nhập mật khẩu</string>
+    <string name="error_login_failed">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="cd_app_logo">Biểu tượng ứng dụng</string>
+
+    <!-- Màn hình danh sách lịch hẹn -->
+    <string name="title_main">Lịch hẹn của tôi</string>
+    <string name="section_upcoming">Sắp tới (gần nhất trước)</string>
+    <string name="stat_title">Thống kê</string>
+    <string name="stat_total">Tổng lịch hẹn</string>
+    <string name="stat_reminders">Có nhắc nhở</string>
+    <string name="label_reminder_on">Có nhắc</string>
+    <string name="label_reminder_off">Không nhắc</string>
+    <string name="item_location_format">Địa điểm: %1$s</string>
+    <string name="hint_click_detail">(nhấn vào một lịch hẹn để xem chi tiết)</string>
+    <string name="action_add_appointment">+ Thêm lịch hẹn</string>
+    <string name="empty_title">Chưa có lịch hẹn nào</string>
+    <string name="empty_desc">Nhấn nút bên dưới để thêm lịch hẹn đầu tiên</string>
+    <string name="cd_empty">Không có lịch hẹn</string>
+
+    <!-- Màn hình thêm lịch hẹn -->
+    <string name="title_add">Thêm lịch hẹn</string>
+    <string name="cd_back">Quay lại</string>
+    <string name="label_title">Tên lịch hẹn</string>
+    <string name="label_location">Địa điểm</string>
+    <string name="hint_title_example">Ví dụ: Họp nhóm đồ án</string>
+    <string name="hint_location_example">Ví dụ: Phòng B203</string>
+    <string name="label_date">Ngày hẹn</string>
+    <string name="label_time">Giờ hẹn</string>
+    <string name="label_reminder">Nhắc nhở</string>
+    <string name="label_reminder_before">Nhắc nhở trước giờ hẹn</string>
+    <string name="action_save">Lưu lịch hẹn</string>
+    <string name="error_title_empty">Vui lòng nhập tên lịch hẹn</string>
+    <string name="error_location_empty">Vui lòng nhập địa điểm</string>
+    <string name="error_time_past">Thời điểm hẹn phải sau thời điểm hiện tại</string>
+    <string name="msg_saved">Đã lưu lịch hẹn mới</string>
+
+    <!-- Màn hình chi tiết lịch hẹn -->
+    <string name="title_detail">Chi tiết lịch hẹn</string>
+    <string name="label_datetime">Thời gian</string>
+    <string name="reminder_state_on">Đang bật</string>
+    <string name="reminder_state_off">Đang tắt</string>
+    <string name="action_back">Quay lại</string>
+    <string name="action_delete">Xóa lịch hẹn</string>
+    <string name="action_delete_short">Xóa</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="confirm_delete_title">Xóa lịch hẹn</string>
+    <string name="confirm_delete_message">Bạn có chắc muốn xóa lịch hẹn này?</string>
+    <string name="msg_deleted">Đã xóa lịch hẹn</string>
+    <string name="error_appointment_not_found">Không tìm thấy lịch hẹn</string>
+</resources>

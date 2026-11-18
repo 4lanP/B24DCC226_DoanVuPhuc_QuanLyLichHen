@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Bảng màu lấy theo phác thảo giao diện của đề bài -->
+    <color name="teal_50">#E7F3F0</color>
+    <color name="teal_100">#D2E9E3</color>
+    <color name="teal_500">#1F8579</color>
+    <color name="teal_600">#197066</color>
+    <color name="teal_700">#0E6B60</color>
+    <color name="teal_800">#0A5A50</color>
+    <color name="ink_900">#233A32</color>
+    <color name="ink_600">#5A6B63</color>
+    <color name="ink_300">#9AA8A1</color>
+    <color name="ink_100">#EFF3F1</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="background">#F6F8F8</color>
+    <color name="line">#E3E9E6</color>
+    <color name="amber_300">#F2C879</color>
+    <color name="amber_500">#E08A2E</color>
+    <color name="amber_700">#B37419</color>
+    <color name="amber_50">#FCEBD3</color>
+    <color name="chip_off_bg">#EEF0EF</color>
+    <color name="error_red">#C0392B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#B3FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>
